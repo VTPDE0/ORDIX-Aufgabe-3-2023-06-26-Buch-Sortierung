@@ -1,0 +1,57 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+xx.xx.2023 Montag/Dienstag/Mittwoch x/3
+______________
+Ziele:
+1)
+2)
+3)
+______________
+Ablauf:
+1)
+2)
+3)
+
+______________
+Kommentare/Fragen:
+1)
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+27.06.2023 Dienstag 2/3
+______________
+Ziele:
+1) Struktogramm fertigschreiben
+2) 2/3 von Aufgabe machen
+3) alles was habe ich um die Listen gelernt- noch wiederholen
+______________
+Ablauf:
+1)
+2)
+3)
+
+______________
+Kommentare/Fragen:
+1)
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+26.06.2023 Montag 1/3
+______________
+Ziele:
+1) Repository in GitHub erstellen
+2) 1/3 von ganzes Aufgabe in Code schreiben
+3) Listen verwaltung wiederholen
+______________
+Ablauf:
+1) GitHub Repository ist erstellt und auf privat gewechselt
+2) erste drittel von Aufgabe ist funktionierend
+3)
+
+______________
+Kommentare/Fragen:
+1) Listen muss ich noch wiederholen, ohne Google oder Beispiele aus vorherigen Aufgaben es ist noch schwierig Code wieder zu schreiben
+2)
+3)
+______________
