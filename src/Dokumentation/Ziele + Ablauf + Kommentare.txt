@@ -21,15 +21,19 @@ ______________
 27.06.2023 Dienstag 2/3
 ______________
 Ziele:
-1) Struktogramm fertigschreiben
-2) 2/3 von Aufgabe machen
-3) alles was habe ich um die Listen gelernt- noch wiederholen
+1) Erste Erweiterung fertigmachen
+2) dafür alle Klassen und Methoden modifizieren
+3) Ausgabe anpassen
+4) mehr Bücher hinzufügen, sodass Beispiel wird mehr deutlich
+5) alles was habe ich um die Listen gelernt- noch wiederholen
 ______________
 Ablauf:
-1)
-2)
-3)
-
+1) Habe angepasst Variablen und Variablen Namen (wie z.B. regalfach_author)
+2) Habe erweitert Methode passt mit && buch.getAutor().equals(regalfach_author); (AND- Operator in Java)
+3) Habe extra Bücher hinzugefügt
+4) add.Buch ist modifiziert mit "autor"
+5) getRegalfach_autor ist hinzugefügt
+6) habe findeFach implementiert, versehe aber noch nicht ganz wofür wird das angewendet jetzt oder später
 ______________
 Kommentare/Fragen:
 1)

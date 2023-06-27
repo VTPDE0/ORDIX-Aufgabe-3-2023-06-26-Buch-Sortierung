@@ -1,14 +1,15 @@
 public class Buch {
-    private String titel;
+    private String titel;                               // private Variable zur Speicherung des Buchtitels
     private String autor;
     private String buch_genre;
 
     public Buch(String titel, String autor, String genre) {
-        this.titel = titel;
+        this.titel = titel;                             // Initialisierung des Buchtitels mit dem übergebenen Wert
         this.autor = autor;
         this.buch_genre = genre;
     }
 
+    // Getter- und Setter-Methoden für die Felder
     public String getBuch_genre() {
         return buch_genre;
     }

@@ -9,6 +9,7 @@ class Bücherregal {
 
     public void addBuch(Buch buch) {
         String genre = buch.getGenre();
+        String autor = buch.getAutor();
 
         // Überprüfen, ob ein passendes Regalfach für das Buch existiert
         for (Regalfach regalfach : regalfachListe) {
@@ -19,9 +20,21 @@ class Bücherregal {
         }
 
         // Wenn kein passendes Regalfach gefunden wurde, ein neues Regalfach erstellen und das Buch hinzufügen
-        Regalfach neuesRegalfach = new Regalfach(genre);
+        Regalfach neuesRegalfach = new Regalfach(genre, autor);
         neuesRegalfach.addBuch(buch);
         regalfachListe.add(neuesRegalfach);
+    }
+    // Methode "findeFach" wird definiert und erwartet einen Parameter vom Typ "String" namens "genre".
+    // Die Methode soll ein Regalfach zurückgeben.
+    public Regalfach findeFach(String genre) {
+        // Durchlaufe jedes Regalfach in der Liste regalfachListe
+        for (Regalfach regalfach : regalfachListe) {
+            // Überprüfe, ob das Genre des aktuellen Regalfachs mit dem gesuchten Genre übereinstimmt
+            if (regalfach.getRegalfach_genre().equals(genre)) {
+                return regalfach;  // Rückgabe des Regalfachs, falls das Genre mit dem gesuchten Genre übereinstimmt
+            }
+        }
+        return null;  // Rückgabe von null, falls kein passendes Regalfach gefunden wurde
     }
 
     public List<Regalfach> getRegalfachListe() {
