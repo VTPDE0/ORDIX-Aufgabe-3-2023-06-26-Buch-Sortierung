@@ -8,8 +8,9 @@ class Bücherregal {
     }
 
     public void addBuch(Buch buch) {
-        String genre = buch.getGenre();
-        String autor = buch.getAutor();
+        String genre = buch.getBuch_genre();
+        String autor = buch.getBuch_autor();
+        int jahr = buch.getBuch_jahr();
 
         // Überprüfen, ob ein passendes Regalfach für das Buch existiert
         for (Regalfach regalfach : regalfachListe) {
@@ -20,7 +21,7 @@ class Bücherregal {
         }
 
         // Wenn kein passendes Regalfach gefunden wurde, ein neues Regalfach erstellen und das Buch hinzufügen
-        Regalfach neuesRegalfach = new Regalfach(genre, autor);
+        Regalfach neuesRegalfach = new Regalfach(genre, autor, jahr);
         neuesRegalfach.addBuch(buch);
         regalfachListe.add(neuesRegalfach);
     }

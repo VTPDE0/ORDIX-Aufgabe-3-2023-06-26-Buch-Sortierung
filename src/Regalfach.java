@@ -3,16 +3,21 @@ import java.util.List;
 public class Regalfach {
     private String regalfach_genre;
     private String regalfach_author;
+    private int regalfach_jahr;
     private List<Buch> buchListe;           // private Liste zur Speicherung der Bücher im Regalfach
 
-    public Regalfach(String genre, String author) {
+    public Regalfach(String genre, String author, int jahr) {
         this.regalfach_genre = genre;   // Initialisierung des Genres des Regalfachs mit dem übergebenen Wert
         this.regalfach_author = author;
+        this.regalfach_jahr = jahr;
+
         buchListe = new ArrayList<>();  // Initialisierung der Buchliste als neue leere ArrayList
     }
 
-    public boolean passt(Buch buch) { // Prüfung, ob das Genre des übergebenen Buchs mit dem Genre des Regalfachs übereinstimmt, das gleiche mit dem Autor
-        return buch.getGenre().equals(regalfach_genre) && buch.getAutor().equals(regalfach_author);
+    public boolean passt(Buch buch) { // Prüfung, ob das Genre des übergebenen Buchs mit dem Genre des Regalfachs übereinstimmt, das gleiche mit dem Autor und Jahr
+        return  buch.getBuch_genre().equals(regalfach_genre) &&
+                buch.getBuch_autor().equals(regalfach_author) &&
+                buch.getBuch_jahr() == (regalfach_jahr);
     }
 
     public void addBuch(Buch buch) {
@@ -28,4 +33,5 @@ public class Regalfach {
     public String getRegalfach_author() {
         return regalfach_author;
     }
+    public int getRegalfach_jahr(){return regalfach_jahr;}
 }

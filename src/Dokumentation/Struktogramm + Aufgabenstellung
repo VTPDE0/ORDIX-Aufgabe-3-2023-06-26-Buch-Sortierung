@@ -1,0 +1,37 @@
+1) Erstellen der Klasse "Buch":
+
+    Definieren der Felder "titel", "autor", "genre" und "jahr" (später).
+    Implementieren eines Konstruktors, der die Felder initialisiert.
+
+2) Erstellen der Klasse "Regalfach":
+
+    Definieren der Felder "genre", "autor" und "buecherListe" (Liste von Büchern).
+    Implementieren der Methode "passt", die überprüft, ob ein Buch in das Fach passt, basierend auf dem Genre und optional dem Autor (später).
+
+3) Erstellen der Klasse "Bücherregal":
+
+    Definieren des Feldes "regalfachListe" (Liste von Regalfächern).
+    Implementieren der Methode "addBuch", um ein Buch zum Bücherregal hinzuzufügen:
+        Überprüfen des Genres und optional des Autors (später) des Buches, um das passende Regalfach zu finden.
+        Hinzufügen des Buches zum entsprechenden Regalfach.
+
+4) Erstellen eines Beispielprogramms (main Methode), das die Implementierung demonstriert:
+
+    Erstellen einer Instanz von "Bücherregal".
+    Erstellen einiger Bücher mit verschiedenen Genres, Autoren (Erweiterung 1) und Veröffentlichungsjahren (Erweiterung 2).
+    Hinzufügen der Bücher zum Bücherregal mit der Methode "addBuch".
+    Überprüfen der Sortierung im Bücherregal, indem die Bücher in den Regalfächern ausgegeben werden.
+
+5) Erweitern des Programms für die erweiterte Sortierung nach Genre und Autor:
+
+    Anpassen der Klasse "Buch", um das Feld "autor" hinzuzufügen.
+    Anpassen der Klasse "Regalfach", um das Feld "autor" hinzuzufügen und die Methode "passt" entsprechend anzupassen.
+    Anpassen der Klasse "Bücherregal", um die Methode "findeFach" zu implementieren, die das passende Regalfach basierend auf Genre und Autor zurückgibt. (Erweiterung 2)
+    Aktualisieren der Methode "addBuch", um das Buch in das passende Regalfach einzusortieren, basierend auf Genre und Autor (Erweiterung 1).
+
+6) Erweitern des Programms für die erweiterte Sortierung nach Genre, Autor und Veröffentlichungsjahr (Erweiterung 1 und 2):
+
+    Anpassen der Klasse "Buch", um das Feld "jahr" hinzuzufügen. (Erweiterung 2)
+    Anpassen der Klasse "Regalfach", um das Feld "jahr" hinzuzufügen und die Methode "passt" entsprechend anzupassen. (Erweiterung 2)
+    Anpassen der Klasse "Bücherregal", um die Methode "findeFach" zu implementieren, die das passende Regalfach basierend auf Genre, Autor und Veröffentlichungsjahr zurückgibt. (Erweiterung 1)
+    Aktualisieren der Methode "addBuch", um das Buch in das passende Regalfach einzusortieren, basierend auf Genre, Autor und Veröffentlichungsjahr. (Erweiterung 1+2)

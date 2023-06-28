@@ -18,6 +18,26 @@ Kommentare/Fragen:
 3)
 ______________
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+28.06.2023 Mittwoch 3/3
+______________
+Ziele:
+1) Aufgabe fertigmachen
+2)
+3) Datum von Bücher mit Veröffentlichungsjahr vor 1970 darstellen. Wie?
+______________
+Ablauf:
+1) Ok, das lief ähnlich wie bei der ersten Erweiterung, jedoch musste ich die Bücherliste bearbeiten, da sonst kein zweites Buch im Fach vorhanden gewesen wäre.
+    Es ist sehr selten, dass es ein Buch vom gleichen Autor im gleichen Genre gibt, das im selben Jahr veröffentlicht wurde
+2)
+3)
+
+______________
+Kommentare/Fragen:
+1) equals ist nur für String! für int braucht man ==
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 27.06.2023 Dienstag 2/3
 ______________
 Ziele:
@@ -33,7 +53,7 @@ Ablauf:
 3) Habe extra Bücher hinzugefügt
 4) add.Buch ist modifiziert mit "autor"
 5) getRegalfach_autor ist hinzugefügt
-
+6) habe findeFach implementiert, versehe aber noch nicht ganz wofür wird das angewendet jetzt oder später
 ______________
 Kommentare/Fragen:
 1)
