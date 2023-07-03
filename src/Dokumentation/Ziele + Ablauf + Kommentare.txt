@@ -33,8 +33,8 @@ Ablauf:
 
 ______________
 Kommentare/Fragen:
-1)
-2)
+1) Muss noch besser verstehen wie funktioniert java.time und wo sind die Vorteile vergleichbar zu int Eingabe
+2) Wofür ist Methode findeFach?
 3)
 ______________
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
