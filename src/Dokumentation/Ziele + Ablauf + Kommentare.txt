@@ -18,11 +18,30 @@ Kommentare/Fragen:
 3)
 ______________
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+03.07.2023 Montag 1/3
+______________
+Ziele:
+1) Datum von Bücher mit Veröffentlichungsjahr vor 1970 darstellen. Wie?
+2) Wenn zeitlich passt - auch optimieren Erstellung von neue Objekte (anstatt 40 Mal ein Buch hinzufügen- eine Methode nutzen)
+3)
+______________
+Ablauf:
+1)
+2)
+3)
+
+______________
+Kommentare/Fragen:
+1)
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 28.06.2023 Mittwoch 3/3
 ______________
 Ziele:
 1) Aufgabe fertigmachen
-2) Datum von Bücher mit Veröffentlichungsjahr vor 1970 darstellen. Wie?
+2)
 3)
 ______________
 Ablauf:

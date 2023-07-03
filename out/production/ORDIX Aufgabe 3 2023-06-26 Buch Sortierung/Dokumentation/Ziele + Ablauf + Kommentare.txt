@@ -18,18 +18,38 @@ Kommentare/Fragen:
 3)
 ______________
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+03.07.2023 Montag 1/3
+______________
+Ziele:
+1) Datum von Bücher mit Veröffentlichungsjahr vor 1970 darstellen. Wie?
+2) Wenn zeitlich passt - auch optimieren Erstellung von neue Objekte (anstatt 40 Mal ein Buch hinzufügen- eine Methode nutzen)
+3)
+______________
+Ablauf:
+1)
+2)
+3)
+
+______________
+Kommentare/Fragen:
+1)
+2)
+3)
+______________
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 28.06.2023 Mittwoch 3/3
 ______________
 Ziele:
 1) Aufgabe fertigmachen
 2)
-3) Datum von Bücher mit Veröffentlichungsjahr vor 1970 darstellen. Wie?
+3)
 ______________
 Ablauf:
 1) Ok, das lief ähnlich wie bei der ersten Erweiterung, jedoch musste ich die Bücherliste bearbeiten, da sonst kein zweites Buch im Fach vorhanden gewesen wäre.
     Es ist sehr selten, dass es ein Buch vom gleichen Autor im gleichen Genre gibt, das im selben Jahr veröffentlicht wurde
-2)
-3)
+2) Auch habe ich gelernt, dass equals wird nicht überall passend. z.B. int muss man prüfen mithilfe ==
+3) Aufgabe ist Fertig
+4) Montag werde ich mich dann mit dem Datum beschäftigen
 
 ______________
 Kommentare/Fragen:
