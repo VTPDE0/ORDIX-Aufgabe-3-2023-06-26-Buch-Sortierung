@@ -1,12 +1,13 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 public class Regalfach {
     private String regalfach_genre;
     private String regalfach_author;
-    private int regalfach_jahr;
+    private LocalDate regalfach_jahr;
     private List<Buch> buchListe;           // private Liste zur Speicherung der Bücher im Regalfach
 
-    public Regalfach(String genre, String author, int jahr) {
+    public Regalfach(String genre, String author, LocalDate jahr) {
         this.regalfach_genre = genre;   // Initialisierung des Genres des Regalfachs mit dem übergebenen Wert
         this.regalfach_author = author;
         this.regalfach_jahr = jahr;
@@ -17,7 +18,7 @@ public class Regalfach {
     public boolean passt(Buch buch) { // Prüfung, ob das Genre des übergebenen Buchs mit dem Genre des Regalfachs übereinstimmt, das gleiche mit dem Autor und Jahr
         return  buch.getBuch_genre().equals(regalfach_genre) &&
                 buch.getBuch_autor().equals(regalfach_author) &&
-                buch.getBuch_jahr() == (regalfach_jahr);
+                buch.getBuch_jahr().equals(regalfach_jahr);
     }
 
     public void addBuch(Buch buch) {
@@ -33,5 +34,5 @@ public class Regalfach {
     public String getRegalfach_author() {
         return regalfach_author;
     }
-    public int getRegalfach_jahr(){return regalfach_jahr;}
+    public LocalDate getRegalfach_jahr(){return regalfach_jahr;}
 }

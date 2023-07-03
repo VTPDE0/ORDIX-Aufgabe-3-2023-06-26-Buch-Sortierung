@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         // Erstellen eines Bücherregals
@@ -39,15 +40,15 @@ public class Main {
                 "Klassiker",
                 "Klassiker"
         };
-        int[] buch_jahrArray = {
-                2012,
-                1997,
-                1960,
-                1813,
-                2012,
-                1997,
-                1960,
-                1813
+        LocalDate[] buch_jahrArray = {
+                LocalDate.of(2012, 1 ,1),
+                LocalDate.of(1997,1,1),
+                LocalDate.of(1960,1,1),
+                LocalDate.of(1813,1,1),
+                LocalDate.of(2012,1,1),
+                LocalDate.of(1997,1,1),
+                LocalDate.of(1960,1,1),
+                LocalDate.of(1813,1,1)
                         };
 
         for (int i = 0; i < buch_titelArray.length; i++) {

@@ -1,11 +1,12 @@
+import java.time.LocalDate;
 public class Buch {
     private String titel;                               // private Variable zur Speicherung des Buchtitels
     private String buch_autor;
     private String buch_genre;
 
-    private int buch_jahr;
+    private LocalDate buch_jahr;
 
-    public Buch(String titel, String autor, String genre, int jahr) {
+    public Buch(String titel, String autor, String genre, LocalDate jahr) {
         this.titel = titel;                             // Initialisierung des Buchtitels mit dem übergebenen Wert
         this.buch_autor = autor;
         this.buch_genre = genre;
@@ -24,7 +25,7 @@ public class Buch {
         return buch_autor;
     }
 
-    public int getBuch_jahr() {
+    public LocalDate getBuch_jahr() {
         return buch_jahr;
     }
 }

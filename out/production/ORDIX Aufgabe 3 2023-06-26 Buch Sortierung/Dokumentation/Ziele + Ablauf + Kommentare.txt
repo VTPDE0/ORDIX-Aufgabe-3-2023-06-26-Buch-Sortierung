@@ -26,9 +26,9 @@ Ziele:
 3)
 ______________
 Ablauf:
-1)
-2)
-3)
+1) ich habe mithilfe For-Schleife Erzeugung von Büchern upgraded
+2) Habe mich um Klasse Date in Java erkundigt und festgestellt, dass aktuell sollte man java.time nutzen
+3) Halelloua!!!11
 
 ______________
 Kommentare/Fragen:

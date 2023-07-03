@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 class Bücherregal {
@@ -10,7 +11,7 @@ class Bücherregal {
     public void addBuch(Buch buch) {
         String genre = buch.getBuch_genre();
         String autor = buch.getBuch_autor();
-        int jahr = buch.getBuch_jahr();
+        LocalDate jahr = buch.getBuch_jahr();
 
         // Überprüfen, ob ein passendes Regalfach für das Buch existiert
         for (Regalfach regalfach : regalfachListe) {
